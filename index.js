@@ -1,7 +1,13 @@
-const main = document.querySelector('#main')
+/*const main = document.querySelector('#main')
 main.remove()
 
 const newHeader = document.createElement('h1')
 newHeader.setAttribute("id", "victory")
 newHeader.innerHTML = "Duvly is the champion"
-document.body.append(newHeader)
+document.body.append(newHeader)*/
+
+main.remove()
+const newHeader = document.createElement("h1")
+newHeader.setAttribute('id', 'victory')
+newHeader.innerHTML = 'DUVLY is the champion'
+document.body.append("newHeader")
